@@ -1,0 +1,18 @@
+#include "..\do_not_edit\script_component.hpp"
+#include "..\do_not_edit\CfgEventHandlers.hpp"
+#include "..\do_not_edit\CfgFunctions.hpp"
+#include "..\do_not_edit\cfgremoteexec.hpp"
+#include "..\do_not_edit\cfgsounds.hpp"
+#include "..\do_not_edit\scripts\dialogs\tp_dialog.hpp"
+#include "..\do_not_edit\adminpanel\ui\dialog.hpp"
+
+/* Ace Kill tracker ------------------------------------------------------------------------------------------------- */
+class CfgDebriefingSections {
+    class acex_killTracker {
+        title = "ACEX Killed Events";
+        variable = "acex_killTracker_outputText";
+    };
+};
+
+/* Admin stuff ------------------------------------------------------------------------------------------------------ */
+enableTargetDebug = 1;

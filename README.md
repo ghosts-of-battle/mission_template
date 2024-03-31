@@ -36,12 +36,12 @@ you can find the Ghosts of Battle Version at https://github.com/ghosts-of-battle
 
 Huge appreciation and thanks to [ACE3 Team](http://ace3mod.com/team.html) for their open-source nature and permission to use their systems.
 
-## License
+# License
 This work uses the license Arma Public License Share Alike [Arma Public License Share Alike (APL-SA)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
 
 You can freely modify, copy, "cannibalize", to use in your projects.
 
-## Rules
+# Rules
 This template is very simple to use, just follow these simple rules
 1. If you do not know what your doing do not edit anyfile outside of the edit_me folder
 
@@ -49,10 +49,10 @@ This template is very simple to use, just follow these simple rules
 
 <img src="delete_me\folders.jpg" width="480">
 
-## Howto's
+# Howto's
 <img src="delete_me\files.jpg" width="480">
 
-#Files
+## Files
 - edit_me\ADMINLIST.hpp - access to the in mission admin panel (the pause key by default)
 - edit_me\approvedMods.hpp - A list of mods, a mod not on the list will only report the mod in the log, will not stop playing the mission
 - edit_me\arsenal_import.sqf - sets the in mission arsenal , edit the lines between the []'s, if you export from 3den an ace arsenal its the required format 

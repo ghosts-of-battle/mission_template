@@ -12,7 +12,7 @@
 		NONE
 
 	Example:
-		["Hello world!"] remoteExec ["TFD_fnc_logToServer", 2, false];
+		["Hello world!"] remoteExec ["GHOST_fnc_logToServer", 2, false];
 */
 
 params [

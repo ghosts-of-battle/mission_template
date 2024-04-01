@@ -41,3 +41,20 @@ if(isServer) then {
 
 /* VCOM ------------------------------------------------------------------------------------------------------------- */
 [] spawn VCM_fnc_VcomInit;
+
+//== DON'T TOUCH ==================================================================================
+// Don't change anything past this point unless you understand what you're changing
+//=================================================================================================
+
+// Some misc configuration
+0 enableChannel [true, false]; 	// GLOBAL
+1 enableChannel [true, false]; 	// SIDE
+2 enableChannel [true, true]; 	// COMMAND
+3 enableChannel [true, false]; 	// GROUP
+4 enableChannel [true, false];	// VEHICLE
+5 enableChannel [true, false];	// DIRECT
+
+enableSaving [false,false];
+enableSentences false;
+
+GHOST_INIT_COMPLETE = true;

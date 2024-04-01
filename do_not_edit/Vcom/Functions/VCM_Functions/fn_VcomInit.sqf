@@ -1,6 +1,9 @@
 //Parameters
 [] spawn
 {
+    waitUntil {missionNamespace getVariable ["GHOST_INIT_COMPLETE", false]};
+	if (!(missionNamespace getVariable ["USE_VCOM", false])) exitWith {};
+
 	VCM_PublicScript = compileFinal "[] call (_this select 0);";
 	VCM_ServerAsk = compileFinal "(_this select 1) publicVariableClient (_this select 0);";
 	

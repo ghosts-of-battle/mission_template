@@ -35,10 +35,12 @@ class CfgFunctions {
             file = "do_not_edit\functions\arsenal";
             class FullArsenal {};
             class arsenal {preInit = 1;};
+            class spawnProfileGroup {};
         };
         class AI {
             file = "do_not_edit\functions\ai";
             class onDisembark {};
+            class customDifficulty {postInit = 1;};
         };
         class init {
             file = "do_not_edit\functions\init";

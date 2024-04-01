@@ -1,5 +1,5 @@
 /*
-	Author: DerZade (Adapted for TFD Framework by TheTimidShade)
+	Author: DerZade (Adapted for GHOST Framework by TheTimidShade)
 
 	Description:
 		Initialises Zade Backpack on Chest script
@@ -16,7 +16,7 @@ if (!hasInterface) exitWith {};
 
 [] spawn { // To prevent suspension from blocking mission initialisation
 
-waitUntil {missionNamespace getVariable ["TFD_INIT_COMPLETE", false]};
+waitUntil {missionNamespace getVariable ["GHOST_INIT_COMPLETE", false]};
 if (!(missionNamespace getVariable ["ENABLE_ZADE_BOC", false])) exitWith {};
 
 // Check to make sure variables exist
@@ -55,6 +55,6 @@ _action = ["zade_boc_swap", "Swap backpacks", "do_not_edit\zade_boc\data\actions
 
 [player, 1, ["ACE_SelfActions", "ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
 
-TFD_DEBUG_ZADE_BOC_COMPLETE = true;
+GHOST_DEBUG_ZADE_BOC_COMPLETE = true;
 
 };

@@ -34,7 +34,7 @@ class CfgFunctions {
             file = "do_not_edit\functions\arsenal";
             class FullArsenal {};
             class arsenal {preInit = 1;};
-            class spawnProfileGroup {};
+            class MedicalSupplies {};
         };
         class AI {
             file = "do_not_edit\functions\ai";

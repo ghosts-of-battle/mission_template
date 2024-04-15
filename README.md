@@ -28,7 +28,6 @@
 - https://github.com/TaskForceDingo/Mission-Framework  -- TaskForceDingo -- 
 - https://github.com/7Cav/cScripts -- 7CAV --   GNU GENERAL PUBLIC LICENSE
 - https://github.com/DreadPirateAU/JEBUS -- Jebus -- Just Editor Based Unit Spawning -- MIT License
-- https://github.com/genesis92x/VcomAI-3.0 -- VCOM -- 
 - https://github.com/DerZade/BackpackOnChest -- Zade Backpack on chest --
 
 All the code in this mod is available in the Github

@@ -24,6 +24,14 @@ CUP_stopLampCheck = true;
 
 [Player, currentWeapon Player, true] call ace_safemode_fnc_setWeaponSafety;
 
+[missionNamespace, "arsenalOpened", {
+	player setVariable ["PlayerReady",false,true];
+}] remoteExecCall ["BIS_fnc_addScriptedEventHandler", [0, -2] select isDedicated];
+[missionNamespace, "arsenalClosed", {
+	player setVariable ["PlayerReady",true,true];
+}] remoteExecCall ["BIS_fnc_addScriptedEventHandler", [0, -2] select isDedicated];
+player setVariable ["PlayerReady",true,true];
+
 
 player call FUNC(rank);
 player call FUNC(role);

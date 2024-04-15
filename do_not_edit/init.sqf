@@ -39,8 +39,14 @@ if(isServer) then {
 	// -------------------------------------------------------------------------------------------------------------
 };
 
-/* VCOM ------------------------------------------------------------------------------------------------------------- */
-[] spawn VCM_fnc_VcomInit;
+/* ------------------------------ ACE Ear Plugs ----------------------------- */
+
+["CAManBase", "init", {
+    params ["_unit"];
+    if (local _unit) then {
+        _unit addItem "ACE_EarPlugs";
+    };
+},true,[],true] call CBA_fnc_addClassEventHandler;
 
 //== DON'T TOUCH ==================================================================================
 // Don't change anything past this point unless you understand what you're changing
@@ -58,3 +64,4 @@ enableSaving [false,false];
 enableSentences false;
 
 GHOST_INIT_COMPLETE = true;
+

@@ -5,7 +5,6 @@ class CfgFunctions {
     #include "..\do_not_edit\jebus\cfgFunctions.hpp"
     #include "..\do_not_edit\adminpanel\CfgFunctions.hpp"
     #include "..\do_not_edit\zade_boc\functions.hpp"
-    #include "..\do_not_edit\Vcom\cfgFunctions.hpp"
     class PREFIX {
         tag = QUOTE(PREFIX);
         class functions {
